@@ -266,30 +266,42 @@ section {
     width: 1109px;
     height: 308px;
     left: 160px;
-    top: 3302px;
-    background-color: #FF9900;
+    top: 3402px;
+    font-weight: 200;
 }
 .footerboxfirst {
     position: absolute;
     width: 218px;
     height: 205px;
-    left: 0px;
-    top: 0px;
-    background-color: aqua;
+    left: 30px;
+    top: 30px;
 }
-.footerboxmiddle {
+.footerbrand {
+    min-width: 110px;
+    min-height: 30px;
+    margin-left: 5px;
+}
+.footerbrand {
+    max-width: 60px;
+}
+.footerboxmiddleleft {
     position: absolute;
     width: 218px;
-    height: 205px;
-    left: 0px;
-    top: 0px;
-    background-color: aqua;
+    height: 190px;
+    left: 260px;
+    top: calc(50% - 140px/2 + 32.5px);
+}
+.footerboxmiddleright {
+    position: absolute;
+    height: 140px;
+    left: 55%;
+    right: -0.76%;
+    top: calc(50% - 140px/2 + 32.5px);
 }
 .footerboxlast {
     position: absolute;
-    width: 218px;
-    height: 205px;
-    left: 0px;
-    top: 0px;
-    background-color: aqua;
+    width: 260px;
+    height: 70px;
+    left: 850px;
+    top: 240px;
 }
