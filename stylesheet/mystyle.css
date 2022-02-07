@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    width: 1400px;
     height: 3843px;
     background-color: white;
 }
@@ -57,18 +56,30 @@ li {
 #signin {
     background: rgb(255, 255, 255);
     color: black;
-    border: 1px solid #FF9900 ;
     margin-right: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#signup {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .maininfo {
     width: 100%;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 section {
     position: absolute;
     width: 1126px;
     height: 496px;
     left: 145px;
-    top: 128px;
+    top: 168px;
+}
+.maincontainer {
+    position: absolute;
+    width: 1126px;
+    height: 496px;
+    left: 20px;
+    top: 0px;
 }
 .maininfotext {
     width: 500px;
@@ -162,9 +173,8 @@ section {
     position: absolute;
     width: 1110px;
     height: 574px;
-    left: 145px;
+    left: 20px;
     top: 1197px;
-    margin-right: 100px;
 }
 .valtext {
     position: absolute;
@@ -175,16 +185,16 @@ section {
 }
 .valimage {
     position: absolute;
-    width: 520px;
+    width: 590px;
     height: 574px;
-    left: 435px;
+    left: 575px;
     top: 0px;
 }
 .productmancontainer {
     position: absolute;
     width: 1121px;
     height: 421px;
-    left: 0px;
+    left: 20px;
     top: 1872px;
 }
 .productmanimage {
@@ -244,6 +254,7 @@ section {
     height: 509px;
     left: 20px;
     top: 2497px;
+    left: 20px;
 }
 .marketerstext {
     position: absolute;
@@ -256,7 +267,7 @@ section {
     position: absolute;
     width: 542px;
     height: 609px;
-    left: 515px;
+    left: 565px;
     top: 0px;
 }
 .footercontainer {
@@ -286,7 +297,7 @@ section {
     position: absolute;
     width: 218px;
     height: 190px;
-    left: 260px;
+    left: 330px;
     top: calc(50% - 140px/2 + 32.5px);
 }
 .footerboxmiddleright {
@@ -300,6 +311,6 @@ section {
     position: absolute;
     width: 260px;
     height: 70px;
-    left: 850px;
-    top: 240px;
+    left: 900px;
+    top: 220px;
 }
