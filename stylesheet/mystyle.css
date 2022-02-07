@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    width: 1400px;
+    height: 3843px;
+}
+#navigation-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    min-width: 30px;
+    max-height: 30px;
+    margin-left: 140px;
+}   
+.brandname {
+    min-width: 140px;
+    max-height: 30px;
+    margin-left: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 500px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button {
+    background: #FF9900;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+#signin {
+    background: rgb(255, 255, 255);
+    box-shadow: none;
+    margin-right: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.maininfo {
+    width: 100%;
+}
+section {
+    background-color: aqua;
+    position: absolute;
+    width: 1126px;
+    height: 496px;
+    left: 145px;
+    top: 128px;
+}
+.maininfotext {
+    width: 500px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+}
+.maininfotext p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.maininfoimage { 
+    float: right; 
+    position: relative; 
+} 
+.frontimg { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+} 
+#watchvideobtn {
+    background: white;
+}
+.featuresection {
+    background-color: #FF9900;
+    position: absolute;
+    width: 1126px;
+
+    height: 543px;
+    top: 734px;
+}
+.featuretitle {
+    background-color: blue;
+    position: absolute;
+    width: 540px;
+    height: 108px;
+    left: -111.22%;
+    right: 37.4%;
+    top: calc(50% - 108px/2 - 217.5px);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: center; 
+}
+.featureboxclick {
+    position: absolute;
+    width: 240px;
+    height: 178px;
+    left: 567px;
+    top: 162px;
+}
+.featureboxdesign {
+    position: absolute;
+width: 240px;
+height: 178px;
+left: 853px;
+top: 162px;
+
+}
